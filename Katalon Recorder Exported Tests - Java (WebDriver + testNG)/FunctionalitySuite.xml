@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "FunctionalitySuite">
+<test name = "LogIn">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.LogIn"/>
+    </classes>
+</test>
+<test name = "LogOut">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.LogOut"/>
+    </classes>
+</test>
+<test name = "AddItemToCompareList">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.AddItemToCompareList"/>
+    </classes>
+</test>
+<test name = "ItemsSort">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.ItemsSort"/>
+    </classes>
+</test>
+<test name = "ItemsPerPage">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.ItemsPerPage"/>
+    </classes>
+</test>
+<test name = "ItemView">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.ItemView"/>
+    </classes>
+</test>
+<test name = "ItemConfigurationSelection">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.ItemConfigurationSelection"/>
+    </classes>
+</test>
+<test name = "ItemCheckout">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.ItemCheckout"/>
+    </classes>
+</test>
+<test name = "SearchItem">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.SearchItem"/>
+    </classes>
+</test>
+<test name = "AddItemToShoppinCart">
+    <classes>
+        <class name = "com.example.FunctionalitySuite.AddItemToShoppinCart"/>
+    </classes>
+</test>
+</suite>
